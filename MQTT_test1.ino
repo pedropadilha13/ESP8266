@@ -75,6 +75,8 @@ void callback(char* topic, byte* payload, unsigned int length) {
 
   Serial.println(message);
 
+  //COPIOU, MORREU!
+
   String pin = "";
   for (int i = 24; i < strlen(topic); i++) {
     pin += (char) topic[i];
